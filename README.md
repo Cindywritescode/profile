@@ -1,4 +1,4 @@
-Cindy's profile page
+Welcome to Cindy's profile page
 
 URL:
 http://Cindywritescode.github.io/profile/ 
