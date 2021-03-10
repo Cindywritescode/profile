@@ -1,4 +1,5 @@
-#Welcome to Cindy's profile page
+# profile
 
-URL:
-http://Cindywritescode.github.io/profile/ 
+click 👇 link to know more about Cindy
+
+🔗 http://Cindywritescode.github.io/profile/ 
