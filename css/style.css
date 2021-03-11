@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500;700&family=Quicksand:wght@300;400&display=swap')
+
+ /*#b7657b #ee99a0;#f65451*/
+ /* Google fonts
+    font-family: 'Hind', sans-serif; (medium/ Bold) H1,H2
+    font-family: 'Quicksand', sans-serif; (Light) P */
+
+/*----- Components design -----*/
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('components/avatar.css');
+
+/** {
+  border: 1px solid black;
+}
+*/
+*{
+/*  margin-left:40;
+  margin-right:0;
+  margin-top:0;*/
+  /*margin-bottom: 0;*/
+}
+
+/* ----Fonts ---*/
+body {
+  margin:64px 14px 32px 16px;;
+  font-family: 'Quicksand', sans-serif;;
+  background-color: #f65451;
+}
+
+h1, h2 {
+  font-family: 'Hind', sans-serif;
+}
+
+h1 {
+  font-size:45px;
+  font-weight: bold;
+  color: #555555;
+  line-height: 50px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-weight: medium;
+  color: #555555;
+}
+
+p {
+  color: #555555;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #f65451;
+}
+
+a:hover {
+  color: #f9f3f3 ;
+}
+
+.content-center{
+  text-align: center;
+}
+
+.margin-btn-0 {
+  margin-bottom: 0;
+}
+
+.margin-top-0{
+  margin-top: 0;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-orange {
+  color: #f65451;
+}
+
+.text-uppercase {
+  text-transform:uppercase;
+}
+
+
+/*- social icon -*/
+li {
+  padding-left: 0;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+
+.social-icon {
+  font-size: 50px;
+  color: #fcd1d1;
+  margin-right: 12px;
+}
+
+.social-icon:hover {
+  color: #ffffff;
+}
+
+/*- Button -*/
+.btn-pink {
+  background-color:#fcd1d1;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color:#f65451;
+}
+
+.btn-pink:hover {
+  background-color:#ffffff;
+  color:#f65451;
+}
+
+
+/*Avatar*/
+/*.img-circle {
+  width:280px;
+  border-radius: 50%;
+}
+
+.img-filter{
+  filter: grayscale(1);
+}
+
+.img-filter:hover {
+  filter: saturate(1);
+}*/
+
