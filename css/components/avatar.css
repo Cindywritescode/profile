@@ -4,11 +4,11 @@
 }
 
 .img-filter{
-  filter: grayscale(1);
+  filter: grayscale(1) brightness(140%);
 }
 
 .img-filter:hover {
-  filter: saturate(1);
+  filter: saturate(0.8) brightness(140%);
   box-shadow: 0 5px 15px rgb(0, 0, 0, 0.2);
 }
 
