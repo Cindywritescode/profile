@@ -181,3 +181,28 @@ li {
     display: none;
   }
 }
+
+@media (max-width: 540px) {
+  .sections {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section-left {
+    width: auto;
+    padding: 83px 10px 10px 10px;
+    text-align: center;
+  }
+  .section-right {
+    width: auto;
+  }
+  
+  hr {
+    /* margin: 0 auto; */
+    display: none;
+  }
+  .social-col{
+    display: none;
+  }
+}
