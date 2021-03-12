@@ -10,16 +10,16 @@
 @import url('components/card.css');
 @import url('components/avatar.css');
 
-/** {
+/* * {
   border: 1px solid black;
-}
-*/
-*{
+} */
+
+/* *{
   margin-left:0;
   margin-right:0;
-  margin-top:0;
-  /*margin-bottom: 0;*/
-}
+  margin-top:0; */
+  margin-bottom: 0;
+}  */
 
 /* ----Fonts ---*/
 body {
@@ -53,7 +53,8 @@ p {
 }
 
 a {
-  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: light;
   text-decoration: none;
   color: #f65451;
 }
@@ -66,6 +67,7 @@ hr{
   border: 0;
   height: 0;
   width: 50%;
+  margin: 0;
   border: 1px solid #fff;
 }
 
@@ -152,3 +154,4 @@ li {
     width: 300px;
   }
 }*/
+

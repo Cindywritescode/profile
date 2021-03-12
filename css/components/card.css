@@ -1,6 +1,6 @@
 .sections {
  display: flex;
- /*flex-wrap: wrap;*/
+ /* flex-wrap: wrap; */
 }
 
 .section-left {
