@@ -157,15 +157,16 @@ li {
 
 
 @media (max-width: 720px) {
+  .sections {
+    display: block;
+    /* flex-wrap: wrap; */
+  }
   .section-left {
-    flex-basis: 50%;
-    background-color: #f65451;
+    width: auto;
+    padding-left: 100px;
   }
   .section-right {
-    flex-basis: 50%;
-  }
-  .sections {
-    flex-wrap: wrap;
+    width: auto;
   }
 
 }
