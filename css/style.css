@@ -17,7 +17,7 @@
 /* *{
   margin-left:0;
   margin-right:0;
-  margin-top:0; */
+  margin-top:0; 
   margin-bottom: 0;
 }  */
 
@@ -100,9 +100,14 @@ hr{
   font-weight: 300;
 }
 
+/* .text-align-left {
+  text-align: left;
+} */
+
 /*- social icon -*/
 li {
   padding-left: 0;
+  list-style: none;
 }
 
 .list-inline {
