@@ -196,6 +196,7 @@ li {
   }
   .section-right {
     width: auto;
+    padding: 40px 8px;
   }
   
   hr {
