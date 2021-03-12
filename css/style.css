@@ -49,7 +49,7 @@ p {
   color: #555555;
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 26px;
 }
 
 a {
@@ -159,14 +159,25 @@ li {
 @media (max-width: 720px) {
   .sections {
     display: block;
-    /* flex-wrap: wrap; */
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
   }
   .section-left {
     width: auto;
-    padding-left: 100px;
+    /* padding-left: 100px; */
+    padding: 140px 140px;
+    text-align: center;
   }
   .section-right {
     width: auto;
   }
-
+  
+  hr {
+    /* margin: 0 auto; */
+    display: none;
+  }
+  .social-col{
+    display: none;
+  }
 }
