@@ -6,6 +6,7 @@
 .section-left {
   flex-basis: 35%;
   padding: 140px 48px 140px 100px;
+  /* padding: 140px 52px; */
   background-color: #f65451
 }
 
