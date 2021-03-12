@@ -37,7 +37,7 @@ h1 {
   font-weight: bold;
   color: #555555;
   line-height: 50px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 h2 {
@@ -60,6 +60,13 @@ a {
 
 a:hover {
   color: #f9f3f3 ;
+}
+
+hr{
+  border: 0;
+  height: 0;
+  width: 50%;
+  border: 1px solid #fff;
 }
 
 .content-center{
@@ -127,3 +134,21 @@ li {
   background-color:#ffffff;
   color:#f65451;
 }
+
+
+/*- Media Queries -*/
+/*@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}*/
