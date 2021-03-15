@@ -13,9 +13,15 @@
 }
 
 .text-rotate {
-  width: 350px;
-  height: 50px;
+  width: 500px;
+  height: 10px;
   -ms-transform: rotate(270deg); /* IE 9 */
   transform: rotate(270deg);
   margin-bottom: 0;
+  position: absolute;
+  
+}
+
+.text-rotate h1 {
+  font-size: 60px;
 }
