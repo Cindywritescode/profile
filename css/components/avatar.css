@@ -12,16 +12,24 @@
   box-shadow: 0 5px 15px rgb(0, 0, 0, 0.2);
 }
 
+
+/* text rotate */
+.section-left {
+  position: relative;
+}
 .text-rotate {
   width: 500px;
   height: 10px;
   -ms-transform: rotate(270deg); /* IE 9 */
   transform: rotate(270deg);
-  margin-bottom: 0;
-  position: absolute;
+  /* margin-bottom: 0; */
   
+  position: absolute;
+  top: 520px;
+  right: -208px;
 }
 
 .text-rotate h1 {
-  font-size: 60px;
+  font-size: 67px;
+  margin: 0 auto;
 }
